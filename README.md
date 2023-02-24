@@ -32,4 +32,4 @@ The end result is that when up push a change to your repos main branch, the foll
 Cloud Build will execute the Dockerfile in the repo to build a container
 If the container build is successful, Cloud Run will deploy that container
 The container's public URL can be found by clicking on the cloud run name
-If you go to this URL, all your flask API endpoints will be available in your main.py app
+If you go to this URL, all your flask API endpoints will be available in your main.py app 
