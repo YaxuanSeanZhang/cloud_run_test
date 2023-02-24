@@ -6,12 +6,13 @@ Google provides great continuous integration and deployment tools. What these al
 
 # Steps
 
-Go to Cloud Run at https://console.cloud.google.com/run
-Create a Service
-Select Continuously deploy new revisions from a source repository and connect your repo's main branch
-Choose compute and memory appropriate for task
-Allow unauthenticated invocations
-Default everything else
+1. Go to Cloud Run at https://console.cloud.google.com/run
+2. Create a Service
+3. Select Continuously deploy new revisions from a source repository and connect your repo's main branch
+4. Choose compute and memory appropriate for task
+5. Allow unauthenticated invocations
+6. Default everything else
+
 # How to monitor the container Build process
 
 The best way to do this is to go to the cloud build app at https://console.cloud.google.com/cloud-build/ and watch the history. It's using the history that you can find out what errors occur during the build, if any.
